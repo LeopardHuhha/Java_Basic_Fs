@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session 10</title>
+    <style>
+        form{
+            background-color: aqua;
+            padding: 50px;
+            width: 400px;
+        }
+        #a{
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            padding: 100px;
+        }
+    </style>
+</head>
+<body>
+<form method="get">
+    <h1 style="text-align: center"> Registration Form </h1>
+    <table>
+        <tr>
+            <td>
+                <label> Student Id </label>
+            </td>
+            <td>
+                <input type="text" required placeholder="Nhap ID ">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> User Name </label>
+            </td>
+            <td>
+                <input type="text" required placeholder="Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Password </label>
+            </td>
+            <td>
+                <input type="password" name="pass" required placeholder="pass">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Email</label>
+            </td>
+            <td>
+                <input type="email" name="email" maxlength="200" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> DOB </label>
+            </td>
+            <td>
+                <input style="width: 168px" type="date">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Phone </label>
+            </td>
+            <td>
+                <input type="tel" maxlength="15">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Fee </label>
+            </td>
+            <td>
+                <input type="number" placeholder="Nhap number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Course </label>
+            </td>
+            <td>
+                <input type="checkbox">Java
+                <input type="checkbox">JDBC
+                <input type="checkbox">EJB
+                <input type="checkbox">JSP
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Gender</label>
+            </td>
+            <td>
+                <input type="radio" name="gt">Male
+                <input type="radio" name="gt">Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Qualification </label>
+            </td>
+            <td>
+                <select>
+                    <option> B.Tech</option>
+                    <option> C.Tech</option>
+                    <option> A.Tech</option>
+                    <option> excellence </option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <p style="text-align: center">
+        <input type = "submit" name = "dongy" value = "Đồng ý" />
+    </p>
+</form>
+</body>
+</html>

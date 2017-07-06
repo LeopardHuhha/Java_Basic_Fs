@@ -1,0 +1,99 @@
+body{
+	margin: auto;
+	width: 100%;
+/*	font-family: Lucida Sans, Arial, Helvetica, sans-serif;
+*/}
+nav{
+	width: 90%;
+	margin: auto;
+	height: 50px; 
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+nav img{
+	width: 25%; height: 150px; float: left;
+}
+nav ul{
+	width: 70%; float: right;
+	margin-top: 50px;
+}
+nav ul li{
+	list-style-type: none;
+	margin-right: 1px;
+	float: left;
+	border-right: 1px solid gray;
+	font-size: 13.5px;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 6px;
+	color: gray;
+	font-weight: bold;
+}
+nav ul li a:hover{ /*hiệu ứng đổi màu khi chọn vào một vùng bất kỳ*/
+	background: greenyellow;
+	color: green;
+}
+nav ul li a:focus{ 	/*click chọn vào vùng nào thì đổi màu cố định vùng đó*/
+	background: greenyellow;
+	color: green;
+}
+section{
+	width: 90%;
+	margin: auto;
+}
+section ul{
+	list-style-type: square;
+}
+#content1{
+	float: left;
+	width: 32%;
+}
+#content2{
+	float: left;
+	width: 32%;
+	margin-left: 2%;
+}
+#content3{
+	float: right;
+	width: 32%;
+}
+.txt1{
+	background: greenyellow;
+	border: 1px solid greenyellow;
+	border-radius: 10px;
+	height: 30px;
+}
+.list-menu ul{
+	margin-bottom: 45px;
+}
+.list-menu ul li{
+	list-style-type: none;
+	background: greenyellow;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: bold;
+}
+footer{
+	width: 90%;
+	margin: auto;
+}
+footer img{
+	width: 25%; 
+	height: 120px; 
+	float: left;
+}
+footer #sec1{
+	width: 35%;
+	float: left;
+	padding-top: 25px;
+}
+footer #sec2{
+	width: 35%;
+	float: right;
+	padding-top: 25px;
+	text-align: right;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>DemoForm2</title>
+    <style type="text/css">
+        label{
+            float: left;
+            width: 100px;
+        }
+        input{
+            margin: 0px 0px 10px 0px;
+        }
+        #kq{
+            color: red;
+            background-color: greenyellow;
+            border: 1px solid darkgreen;
+            width: 280px;
+            height: 70px;
+            padding: 10px;
+            margin: 20px 0px 0px 475px;
+        }
+        form{
+            background-color: wheat;
+            border: 1px solid darkgrey;
+            margin: 20px 0px 0px 475px;
+            width: 280px;
+            height: 150px;
+            padding: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        function getInfo(){
+           var fullname = document.getElementById("fullname").value;
+           var email = document.getElementById("email").value;
+           var address = document.getElementById("address").value;
+           var phone = document.getElementById("phone").value;
+            if(fullname && email && address && phone){
+                info = "Tên: "+ fullname + "<br>";
+                info += "Email: "+ email + "<br>";
+                info += "Địa chỉ: "+ address + "<br>";
+                info += "SDT: "+ phone + "<br>";
+                document.getElementById("kq").innerHTML = info;
+            }
+        }
+    </script>
+</head>
+<body>
+<div style="text-align: center">Bài 1: Điền đầy đủ thông tin và in ra thông tin đã nhập vào</div>
+    <form action="" method="post">
+        <label for="fullname">Full Name</label>
+        <input required type="text" name="fullname" id="fullname" value=""><br>
+        <label for="email">Email</label>
+        <input required type="email" name="email" id="email" value=""><br>
+        <label for="address">Address</label>
+        <input required type="text" name="address" id="address" value=""><br>
+        <label for="phone">Phone</label>
+        <input required type="text" name="phone" id="phone" value=""><br>
+        <label>&nbsp;</label>
+        <button onclick="getInfo();return false">Show infomation</button>
+        <!--return false; Dừng lại trang, không load mất dữ liệu-->
+    </form>
+    <div id="kq"></div>
+</body>
+</html>

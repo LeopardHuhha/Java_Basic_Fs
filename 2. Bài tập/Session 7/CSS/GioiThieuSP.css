@@ -1,0 +1,27 @@
+.text {
+     background-color: gainsboro;
+     color: blue;
+     font-style: italic;
+     font-weight: bold;
+     width: 900px;
+ }
+
+.textDetail {
+    background-color: peachpuff;
+    color: green;
+    font-style: italic;
+    float: left;
+    width: 460px;
+    height: 180px;
+    padding: 10px 20px;
+}
+
+.image {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.table {
+    display: table;
+}

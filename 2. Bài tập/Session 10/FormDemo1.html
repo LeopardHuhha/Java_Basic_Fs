@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Demo Form 1</title>
+    <link rel="stylesheet" href="css/formdemo1.css">
+    <!--<style>
+    // Viết trực tiếp như sau hoặc viết file css riêng
+        form{
+        width: 600px;
+        margin: 40px auto;
+        }
+        fieldset{
+            background-color: #fedeaa;
+        }
+        label{
+            float: left;
+            width: 100px;
+            display: block;
+            clear: left;
+        }
+        input{
+            margin-bottom: 10px;
+        }
+        label.email-private{
+            float: none;
+            width: auto;
+            margin-left: 96px;
+        }
+        textarea{
+            margin-top: 10px;
+        }
+    </style> -->
+</head>
+<body>
+    <form id = "form" action="">
+        <fieldset>
+            <legend>User Profile</legend>
+            <div>
+                <label for="name">Name <span>*</span></label> <!--for="name" sẽ được chỉ định tới thẻ input với id="name"-->
+                <input id="name" required name="name"/>
+            </div>
+            <div>
+                <label for="email">Email <span>*</span></label>
+                <input id="email" type="email"/>
+                <label for="private" class="email-private">
+                    <input type="checkbox" name="private" id="private">
+                    Send me an email when there is update
+                </label>
+            </div>
+            <div>
+                <label for="website">Website</label>
+                <input type="url" id="website" name="url"/>
+            </div>
+            <div>
+                <label for="group">Group</label>
+                <select id="group">
+                    <option value="1">Member</option>
+                    <option value="1">Contributor</option>
+                    <option value="1">Upload</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" cols="50" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="submit" value="Save Changes" class="button">
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>

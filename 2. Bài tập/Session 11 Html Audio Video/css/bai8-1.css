@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+a{text-decoration: none; color: black}
+#head{
+    width: 80%;
+    margin: auto;
+
+}
+#part{
+    width: 100%;
+    margin: auto;
+}
+#part1{
+    width: 20%;
+    margin: auto;
+    float: left;
+}
+#part1 img{
+    width: 100%;
+}
+#part2{
+    width: 70%;
+    margin: auto;
+    float: right;
+    padding-top: 55px;
+
+}
+#part2 a{text-decoration: none; color: gray; font-weight: bold;padding: 20px; transition: all 2s}
+#part2 a:focus{background:#9fff96;color: green}
+#banner{
+    width: 100%;
+    clear: both;
+}
+#banner img{
+    width: 100%;
+}
+#header{
+    width: 100%;
+    margin: auto;
+}
+.hd1{width: 32%; float: left}
+.hd1 .tieude{background: greenyellow; border-radius: 10px}
+.hd2{
+    width: 32%;
+    float: left;
+}
+.hd2 .tieude{background:greenyellow;border-radius: 10px}
+.hd3{
+    width: 32%;
+    float: left;
+}
+.hd3 .tieude{background:greenyellow;border-radius: 10px}

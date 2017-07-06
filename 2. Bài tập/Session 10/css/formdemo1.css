@@ -1,0 +1,41 @@
+body{
+
+}
+form{
+    width: 600px;
+    margin: 40px auto;
+}
+fieldset{
+    background-color: #fedeaa;
+}
+legend{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;/*Tạo margin chung để dễ chỉnh sửa*/
+}
+form div{
+    margin: 0px 0px 5px 0px;
+    font-size: 1.1em; /*Canh chỉnh cho phù hợp với line-height*/
+}
+label{
+    width: 100px;
+    display: block; /* dùng block tạo khối sẽ giúp lable chịu ảnh hưởng độ rộng và chiều cao khi canh chỉnh
+                       nếu dùng inline thì không canh chỉnh được độ rộng và chiều cao*/
+    float: left;/*Đẩy label sang trái nếu không nó sẽ rớt xuống dòng theo block*/
+    clear: left;/*Ngăn không cho tạo thêm thành phần phía bên trái*/
+    font-weight: bold;
+    line-height: 1.2em;
+}
+label span{
+    color: red;
+}
+label.email-private{
+    float: none;
+    font-weight: normal;
+    width: auto;
+    margin-left: 96px;
+
+}
+.button{
+    margin: 10px 0px 0px 100px;
+}

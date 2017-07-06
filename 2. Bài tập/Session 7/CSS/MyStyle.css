@@ -1,0 +1,37 @@
+/*type selector*/
+p {
+    background-color: yellow;
+    font-style: italic;
+}
+
+/*class selector*/
+
+.demo {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    font-family: Arial;
+    /*border-color: black;*/
+    /*border-style: inset;*/
+    /*border-width: 2px;*/
+    border: inset 2px black;
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-family: Arial;
+    /*border-color: black;*/
+    /*border-style: inset;*/
+    /*border-width: 2px;*/
+    border: inset 2px black;
+}
+
+/*id selector*/
+
+#myTest {
+    color: blue;
+    background-image: url("../image/background.jpg");
+    height: 100px;
+}

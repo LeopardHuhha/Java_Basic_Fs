@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session 10</title>
+    <style>
+        #b{
+            background-image: url("images/anh-bia-12-cung-hoang-dao-chibi-11.jpg" );
+            background-position: center center ;
+
+        }
+        #a{
+            float: right;
+        }
+        fieldset{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+<fieldset id="b" style="width: 555px" >
+<legend> Login Detials </legend>
+<table >
+    <tr>
+        <td style="float: right">
+            <label>User Name</label>
+        </td>
+        <td>
+            <input type="text" name="userName" required placeholder="Enter userName" >
+        </td>
+    </tr>
+    <tr>
+        <td style="float: right" >
+            <label>Password</label>
+        </td>
+        <td>
+            <input type="password" name="pass" required placeholder="Enter your password">
+        </td>
+    </tr>
+    <tr>
+        <td style="float: right">
+            <label> Retype password </label>
+        </td>
+        <td>
+            <input type="password">
+        </td>
+    </tr>
+</table>
+</fieldset >
+<fieldset id="b" style="padding: 40px">
+    <legend> User Details</legend>
+    <table>
+        <tr>
+            <td>
+                <label id="a"> First name </label>
+            </td>
+            <td>
+                <input type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="a"> Last name</label>
+            </td>
+            <td>
+                <input type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="a"> Gender </label>
+            </td>
+            <td>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="a"> Date of Birth</label>
+            </td>
+            <td>
+                <input style="width: 170px" type="date">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="a"> Email </label>
+            </td>
+            <td>
+                <input style="width: 250px" type="email" maxlength="200" required>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+<input style="width: 120px; height: 30px; background-color: deepskyblue" type="button" name="register" value="Register">
+</body>
+</html>
